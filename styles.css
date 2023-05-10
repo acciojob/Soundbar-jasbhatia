@@ -3,12 +3,32 @@ body{
 	display:flex;
 	justify-content:center;
 	align-item:center;
-	background-color:purple;
+font-family:arial;
 	
 }
-.container{
+#buttons{
 	display:flex;
 	gap:1em;
-	width:30%;
-	height:40%;
+	width:35em;
+	height:9em;
+	background-color:rgb(161,100,223);
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding:3em;
+}
+.btn ,.stop{
+	display:flex;
+	width:4em;
+/* 	border:1px solid black; */
+	height:2em;
+justify-content:center;
+	align-items:center;
+	padding:0.6em 1.9em;
+	background-color:rgb(102,51,153,0.9);
+	color:white;
+	border-radius:4px;
+	font-size:12px
+	
+	
 }
