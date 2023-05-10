@@ -1,1 +1,14 @@
 /*  your css code here. If applicable */
+body{
+	display:flex;
+	justify-content:center;
+	align-item:center;
+	background-color:purple;
+	
+}
+.container{
+	display:flex;
+	gap:1em;
+	width:30%;
+	height:40%;
+}
